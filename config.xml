@@ -10,5 +10,5 @@
   <content src="index.html"/>
   <icon src="icon.png" />
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
-  <allow-navigation href="*" />
+  <allow-navigation href="http://ramaditya.pe.hu/alkitab/*" />
 </widget>
