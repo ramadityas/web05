@@ -11,6 +11,16 @@
   <icon src="icon.png" />
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <plugin name="cordova-connectivity-monitor" source="npm" spec="~1.2.2"/>
+  <plugin name="cordova-plugin-splashscreen" source="npm" spec="~4.0.0"/>
   <allow-navigation href="http://rama.xp3.biz/alkitab/*" />
   <access origin="http://rama.xp3.biz" />
+<splash platform="android" qualifier="port-ldpi" src="load.png" />
+<splash platform="android" qualifier="port-mdpi" src="load.png" />
+<splash platform="android" qualifier="port-hdpi" src="load.png" />
+<splash platform="android" qualifier="port-xhdpi" src="load.png" />
+ 
+<splash platform="android" qualifier="land-ldpi" src="load.png" />
+<splash platform="android" qualifier="land-mdpi" src="load.png" />
+<splash platform="android" qualifier="land-hdpi" src="load.png" />
+<splash platform="android" qualifier="land-xhdpi" src="load.png" />
 </widget>
