@@ -11,10 +11,10 @@ window.addEventListener("offline", function(e) {alert("Your device is offline");
 window.addEventListener("online", function(e) {alert("Selamat datang...");})
 if (window.navigator.onLine) {
   window.location = "http://ramaditya.pe.hu/alkitab/";
-} else {
-  alert('Your device is offline');
-  //offline functions or through into loop
 }
+if (window.navigator.offLine) {
+  alert('Your device is offline');
+}  
 -->
 </script>
 </body>
