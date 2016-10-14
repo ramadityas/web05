@@ -9,6 +9,7 @@
   <author href="http://ramaditya.pe.hu" email="ramaditya.id@gmail.com">Ramaditya Satria</author>
   <content src="index.html"/>
   <icon src="icon.png" />
+  <preference name="orientation" value="portrait" />
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <plugin name="cordova-connectivity-monitor" source="npm" spec="~1.2.2"/>
   <plugin name="cordova-plugin-splashscreen" source="npm" spec="~4.0.0"/>
