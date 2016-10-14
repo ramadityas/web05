@@ -1,8 +1,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
-<meta http-equiv="refresh" content="0; URL='http://ramaditya.pe.hu/alkitab/'" />
 </head>
 <body style="margin: 0;">
+<br><br>
+<center><img border="0" src="icon.png" /></center>
+<script>
+<!--
+window.addEventListener("offline", function(e) {alert("Your device is offline");})
+window.addEventListener("online", function(e) {alert("Selamat datang...");})
+if (window.navigator.onLine) {
+  window.location = "http://ramaditya.pe.hu/alkitab/";
+} else {
+  alert('Your device is offline');
+  //offline functions or through into loop
+}
+-->
+</script>
 </body>
 </html>
