@@ -10,6 +10,7 @@
   <content src="index.html"/>
   <icon src="icon.png" />
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
+  <plugin name="cordova-connectivity-monitor" source="npm" spec="~1.2.2"/>
   <allow-navigation href="http://ramaditya.pe.hu/alkitab/*" />
   <access origin="http://ramaditya.pe.hu" />
 </widget>
