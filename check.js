@@ -1,7 +1,7 @@
 public static boolean hasActiveInternetConnection(Context context) {
     if (isNetworkAvailable(context)) {
         try {
-            HttpURLConnection urlc = (HttpURLConnection) (new URL("http://www.google.com").openConnection());
+            HttpURLConnection urlc = (HttpURLConnection) (new URL("http://rama.xp3.biz/alkitab/").openConnection());
             urlc.setRequestProperty("User-Agent", "Test");
             urlc.setRequestProperty("Connection", "close");
             urlc.setConnectTimeout(1500); 
