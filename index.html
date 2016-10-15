@@ -25,9 +25,10 @@ function checkNetConnection(){
  }
 }
 if(checkNetConnection()) {
-    alert("Selamat datang");
+    location.reload();
 } else {
     alert("Tidak ada koneksi internet");
+    return;
 }
 </script>
 </body>
