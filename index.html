@@ -27,7 +27,7 @@ if(checkNetConnection()) {
     window.location = "http://rama.xp3.biz/alkitab/";
 } else {
     alert("Tidak ada koneksi internet");
-    window.history.back();
+    window.location.history.go(-2)
 }
 </script>
 </body>
