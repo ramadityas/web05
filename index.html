@@ -1,7 +1,6 @@
 <html>
 <head>
 <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
-<meta http-equiv="refresh" content="3;url=http://rama.xp3.biz/alkitab/" />
 </head>
 <body style="margin: 0;">
 <br><br>
@@ -25,7 +24,7 @@ function checkNetConnection(){
  }
 }
 if(checkNetConnection()) {
-    location.reload();
+    window.location = "http://rama.xp3.biz/alkitab/";
 } else {
     alert("Tidak ada koneksi internet");
     window.history.back();
