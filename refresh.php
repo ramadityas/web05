@@ -19,8 +19,8 @@
 <body style="margin: 0;" onload="onLoad();">
 <br><br>
 <center><img border="0" src="icon.png" /></center><br>
-<center><h3><a onclick="exitFromApp()" style="text-decoration:none"><b>Keluar Aplikasi</b></a></h3></center><br>
-<center><h3><a href="index.html" style="text-decoration:none"><b>Masuk</b></a></h3></center>
+<center><h3><a href="index.html" style="text-decoration:none"><b>Refresh</b></a></h3></center><br>
+<button name="buttonClick" onclick="exitFromApp()">Keluar</button>
 
 <script type="text/javascript">
 function checkNetConnection(){
